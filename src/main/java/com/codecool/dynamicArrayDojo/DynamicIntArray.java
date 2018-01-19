@@ -43,7 +43,6 @@ public class DynamicIntArray {
         } else {
             int[] newArray = new int[size + 1];
             for (int i = 0; i < index; i++) {
-                System.out.print(array[i]);
                 newArray[i] = array[i];
             }
             newArray[index] = newItem;
